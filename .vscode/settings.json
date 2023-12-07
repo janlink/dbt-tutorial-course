@@ -1,0 +1,15 @@
+{
+    // Associated the right file types with the right VSCode extensions
+    "files.associations": {
+        "*.sql": "jinja-sql"
+    },
+
+    // CRUCIAL - you need to change this to terminal.integrated.env.[osx|windows|linux] depending on your system
+    // and point it to the folder where your profiles directory is stored!
+    "terminal.integrated.env.windows": {
+        "DBT_PROFILES_DIR": "C:/Users/link/.dbt",
+		"BIGQUERY_PROJECT": "fine-tractor-406415"
+    },
+    "dbt.enableNewQueryPanel": true,
+    "dbt.enableNewLineagePanel": true,
+}
